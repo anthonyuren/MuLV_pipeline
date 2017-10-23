@@ -7,20 +7,24 @@ Original scripts were written by Bruce Bolt and Barbara Iadarola. Scripts were r
 
 ---
 trim.sh
+
 Adapter triming
 
 ---
 pipeline-full.sh
+
 Aligns reads to genome
 
 ---
 countbylinecombined-withoriqc-R1.pl
+
 Create a table with key information
 Input: sorted,mapped and paired bam file
 output: Mate1.txt (ReadID, chr, LTRpos, Orient, InsertSize, LTRPos, Read1, ReadLen, and if comb exists)  and Mate2.txt (chr, LTR, #of uniq LTRs, orient, tot # of LTRs) 
 
 ---
 group.R
+
 LTR-genome junctions that map with 10 bases and are oriented in the same direction are grouped and treated as one "best base"
 Input: Mat1.txt
 Output: TOTs.txt
