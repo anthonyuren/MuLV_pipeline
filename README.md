@@ -36,6 +36,10 @@ Add best base and median base information and combine all into one table of all 
 Input: TOTs.txt
 Output:inserts.txt
 
+---
+QC scripts 0 to 5
+Create a master table of all inserts, identify inserts that are identical between samples (and hence potentially PCR artifacts or cross contamination) and filter out these from the master table, in some cases keeping the most clonal/earliest cloned insert.
+
 
 
 
